@@ -22,5 +22,5 @@ public class updateJsonWithoutPOJO {
 		String updatedJsonString = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(address);
 
 		System.out.println(updatedJsonString);
-	}
+	} 
 }
